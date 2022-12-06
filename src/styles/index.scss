@@ -1,0 +1,75 @@
+@import 'table/table.css';
+@import 'modal/modal.css';
+@import 'loading/loading.css';
+
+.txt-right {
+    text-align: right;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.size-icon-16 {
+    width: 13px;
+    height: 13px;
+}
+
+
+img {
+    display: block;
+}
+
+.hide {
+    opacity: 0.2;
+}
+
+.cursor-pnt {
+    cursor: pointer;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.mb-2 {
+    margin-bottom: .5rem !important;
+}
+
+.m-auto {
+    margin: 0 auto !important;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.col-6{
+    width: 50%;
+}
+.col-12{
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}

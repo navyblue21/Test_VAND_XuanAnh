@@ -1,0 +1,7 @@
+@import 'styles/index.css';
+
+body{
+  background-color: #1d9ab2;
+  color: white;
+  padding: 5%;
+}
